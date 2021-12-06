@@ -4,5 +4,4 @@
     <string name="clear">Clear</string>
     <string name="actualURL">Url a acceder</string>
     <string name="dataHeroe">Aqui se mostraran los datos de los heroes a acceder</string>
-    <string name="errorUnknownMessage">Se ha poducido un error, vuelve a intentarlo mas tarde</string>
 </resources>

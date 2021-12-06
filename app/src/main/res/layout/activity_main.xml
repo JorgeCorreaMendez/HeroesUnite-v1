@@ -31,16 +31,6 @@
                 android:text="@string/dataHeroe"
                 android:textSize="18sp" />
         </ScrollView>
-
-        <TextView
-            android:id="@+id/error_message_display"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/errorUnknownMessage"
-            android:textSize="22sp"
-            android:padding="16dp"
-            android:visibility="invisible">
-        </TextView>
     </FrameLayout>
 
 
