@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/urlDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/actualURL"
+        android:textSize="22sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/superheroe_searchResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dataHeroe"
+                android:textSize="18sp" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/error_message_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/errorUnknownMessage"
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:visibility="invisible">
+        </TextView>
+    </FrameLayout>
+
+
+</LinearLayout>
